@@ -1,0 +1,25 @@
+## hides these apps 
+app.unavailable=Message/Email/Calendar/Camera/Gallery
+app.auto_arrange.enable=1
+
+## sets default rin, clock screensaver, date format
+phone_setting.ring_type=Resource:zoom.wav
+screensaver.type=0
+local_time.date_format=20
+lcl.datetime.date.format = WW, MMM DD, YYYY
+
+## turns off local directory and turns on ldap (Zoom lookup)
+directory_setting.local_directory.enable=0
+directory_setting.ladp.enable=1
+
+## makes directory button use LDAP and hides Menu button
+## changing programablekey.2 on cp960 hides it
+programablekey.2.type = 38
+programablekey.2.label = Directory
+programablekey.4.type = 0
+phone_setting.browser.url=https://www.yourhomepage.com
+
+
+## use this to upload a wallpaper. HOT TIP: add it in your Zoom branding so it's availible everywhere
+wallpaper_upload.url=https://yourserver.com/yourimage.jpg
+phone_setting.backgrounds=yourimage.jpg
