@@ -1,3 +1,3 @@
 # ZoomPhoneTemplates
 
-notes and things i've learned abotu Zoom Phone templates
+notes and things i've learned about Zoom Phone templates
