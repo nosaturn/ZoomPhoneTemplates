@@ -1,1 +1,15 @@
-https://www.virginiamason.org/myvirginiamason
+## hides these apps 
+app.unavailable=Message/Email/Calendar/Camera/Gallery
+app.auto_arrange.enable=1
+## sets default rin, clock screensaver, date format
+phone_setting.ring_type=Resource:zoom.wav
+screensaver.type=0
+local_time.date_format=20
+lcl.datetime.date.format = WW, MMM DD, YYYY
+## turns off local directory and turns on ldap (Zoom lookup)
+directory_setting.local_directory.enable=0
+directory_setting.ladp.enable=1
+phone_setting.browser.url=https://www.webserver.com
+## use this to upload a wallpaper. HOT TIP: add it in your Zoom branding so it's availible everywhere
+wallpaper_upload.url=https://yourserver.com/yourimage.jpg
+phone_setting.backgrounds=yourimage.jpg
