@@ -4,6 +4,9 @@ app.auto_arrange.enable=1
 ## sets default rin, clock screensaver, date format
 phone_setting.ring_type=Resource:zoom.wav
 screensaver.type=0
+## sets time zone and formats
+local_time.time_zone = -8
+local_time.time_zone_name = United States-Pacific Time
 local_time.date_format=20
 lcl.datetime.date.format = WW, MMM DD, YYYY
 ## turns off local directory and turns on ldap (Zoom lookup)
